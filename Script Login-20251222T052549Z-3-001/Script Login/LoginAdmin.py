@@ -13,7 +13,6 @@ def catat_login(nama, role, status):
         ])
 
 def menu_admin():
-        while True:
             print('==================================')
             print('=========== MAIN MENU ============')
             print('= 1. Lihat data buku             =')
@@ -29,38 +28,38 @@ def menu_admin():
                 user_admin = int(input("pilih menu = "))
                 if user_admin == 1 :
                     print("lihat data")
-                    break
+                    
                 elif user_admin == 2:
                     print('tambah data')
-                    break
+                   
                 elif user_admin == 3:
                     print('Ubah data')
-                    break
+                    
                 elif user_admin == 4:
                     print('status buku')
-                    break
+                    
                 elif user_admin == 5:
                     print('Tambah anggota perpus')
-                    break
+                    
                 elif user_admin == 6:
                     print('kelola rak buku')
-                    break
+                    
                 elif user_admin == 7:
                     print('kelola rak buku')
-                    break
+                    
                 elif user_admin == 8:
                     print('logout')
-                    break
+                    
                 else: 
                     print('erorr')
-                    break
+                    
                 
             except ValueError:
                print("Input harus berupa angka")
-               break
+               
     
 def menu_user():
-        while True:
+        
             print('==================================')
             print('=========== MAIN MENU ============')
             print('= 1. Lihat daftar buku           =')
@@ -74,22 +73,22 @@ def menu_user():
                 user_peminjam = int(input("pilih menu = "))
                 if user_peminjam == 1 :
                     print("lihat data")
-                    break
+                
                 elif user_peminjam == 2:
                     print('tambah data')
-                    break
+                    
                 elif user_peminjam == 3:
                     print('Ubah data')
-                    break
+                    
                 elif user_peminjam == 4:
                     print('status buku')
-                    break
+                    
                 elif user_peminjam == 5:
                     print('Jadwal pengembalian')
-                    break
+                    
                 elif user_peminjam == 6:
                     print('logout')
-                    break
+                    
             
                 else:
                     print('erorr')
